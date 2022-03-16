@@ -1,0 +1,11 @@
+/* @media only screen and (max-width: 650px) {  /* For portrait layouts only */
+    /* .rightbar{
+        display: none;
+    } */
+  /* } */ 
+
+  @media only screen and (max-width: 650px){  /* For portrait layouts only */
+    .rightbar{
+        display: none;
+    }
+  }

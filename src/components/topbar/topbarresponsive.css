@@ -1,0 +1,78 @@
+/* @media only screen and (min-width: 480px) and (max-width: 500px){
+  .topbarContainer{
+    width: 520px;
+  }
+} */
+
+@media only screen and (max-width: 420px){  /* For portrait layouts only */
+  .topbarContainer{
+    width: 500px;
+  }
+  .topbarCenter{
+      display: none;
+  }
+  .topbarLeft{
+    margin-right: 5px;
+  }
+  .topbarRight{
+    margin-left: 5px;
+  }
+
+  .topbarImg{
+    margin-right: 40px;
+  }
+  .logoName{
+    margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 820px){
+ 
+  .topbarImg{
+    margin-right: 10px;
+  }
+
+  .topbarRight{
+    margin-left: 5px;
+  }
+
+}
+
+@media only screen and (min-width: 620px) and (max-width: 820px) {
+  
+  .topbarCenter{
+    flex: 3;
+}
+.logoName{
+  margin-left: 40px;
+  }
+  .searchbar{
+    width: 90%;
+    margin-left: 15px;
+  }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 620px) {
+  .topbarContainer{
+    width: 500px;
+  }
+  .topbarCenter{
+    flex: 2;
+}
+.searchbar{
+  width: 80%;
+  margin-left: 5px;
+}
+.logoName{
+  margin-left: 30px;
+  }
+  .topbarContainer{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px){  /* For portrait layouts only */
+  .searchbar{
+    display: none;
+  }
+}
