@@ -54,7 +54,7 @@ export default function Sidebar() {
           <li className="sidebarListItem">
             <ExitToApp className="sidebarIcon" />
             <span>
-            <Link className="sidebarListItemTextlink" to="/login">Log Out</Link>
+            <Link className="sidebarListItemTextlink" to="/">Log Out</Link>
           </span>
           </li>
         </ul>

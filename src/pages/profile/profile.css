@@ -44,10 +44,15 @@
 
 .profileInfoDesc{
     font-weight: 400;
+    text-align: center;
 }
 
 
 .profileRightBottom{
     display: flex;
+}
+
+#image2{
+display:none;
 }
 

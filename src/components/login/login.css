@@ -31,7 +31,7 @@
     font-size: 24px;
 }
 
-.loginBox{
+.loginBox1{
     height: 300px;
     padding: 20px;
     background-color: white;
@@ -41,7 +41,7 @@
     justify-content: space-between;
 }
 
-.loginInput{
+.loginInput1{
     height: 50px;
     border-radius: 10px;
     border: 1px solid grey;
@@ -86,3 +86,12 @@
     text-decoration: none;
     color: white;
 }
+
+/* *********** for responsive *********** */
+
+@media only screen and (max-width: 600px) {
+    .loginWrapper {
+      display: flex;
+      flex-direction: column;
+    }
+  }
