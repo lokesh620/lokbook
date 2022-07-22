@@ -49,7 +49,6 @@ export default function Profile() {
                                     alt="Uploaded Image"
                                 />
                                 </label>
-                                {/* <img className="profileUserImg" src={ProfileImg} alt="" /> */}
                         </div>
                         <div className="profileInfo">
                             <h4 className="profileInfoName">Lokesh Kumar</h4>
