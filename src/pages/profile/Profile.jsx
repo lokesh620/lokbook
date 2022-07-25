@@ -20,12 +20,7 @@ export default function Profile() {
           setFileImage1Path(reader.result);
         };
       }
-    
-    //   function uploadFileImage1(e) {
-    //     fileImage1NameChanged.current = true;
-    //     setFileImage1Name(e.target.files[0].name);
-    //     setFileImage1(fileImage1Input.current.files[0]);
-    //   }
+
 
     return (
         <>

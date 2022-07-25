@@ -56,8 +56,17 @@
     padding: 0;
     margin: 0;
     list-style: none;
+    margin-top: 10px;
 }
 
 .sidebarListItemTextlink{
     text-decoration: none;
+}
+
+.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root{
+    background-color: rgb(218, 218, 218) !important;
+}
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+max-width: none !important;
 }
